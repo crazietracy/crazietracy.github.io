@@ -18,7 +18,7 @@ const ContactLink = styled.a`
   text-decoration: none;
   p{
     font-size: 30px;
-    color: #ffffff;
+    color: #123C69;
     margin: 0;
   }
   @media (max-width: 700px) {
@@ -33,7 +33,7 @@ const ContactBox = styled.div`
   align-items: center;
   p{
     font-size: 30px;
-    color: #ffffff;
+    color: #123C69;
     margin: 0;
   }
   @media (max-width: 700px) {
@@ -48,11 +48,11 @@ const SocialContact = ({ info }) => (
     {
       info.linkTo ?
       <ContactLink href={info.path}>
-        <img src={info.icon} alt="contact link rashmiap" />
+        <img src={info.icon} alt="contact link" />
         <p>{info.title}</p>
       </ContactLink>:
       <ContactBox>
-        <img src={info.icon} alt="contact link rashmiap"/>
+        <img src={info.icon} alt="contact link"/>
         <p>{info.title}</p>
       </ContactBox>
     }

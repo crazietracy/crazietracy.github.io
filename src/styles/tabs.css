@@ -17,7 +17,7 @@
   padding: 6px 12px;
   cursor: pointer;
   border-right: 1px solid #eee;
-  color: #fff;
+  color: #000;
 }
 .react-tabs__tab:last-of-type {
   border-right: none;

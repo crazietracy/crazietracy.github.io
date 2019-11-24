@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ExperienceWrapper = styled.div`
   align-items: flex-start;
   display: flex;
-  color: #eeeeee;
+  color: #123C69;
   padding: 5% 0;
   @media (max-width: 700px) {
     flex-direction: column;

@@ -5,7 +5,7 @@ html {
 }
 body {
   margin: 0;
-  background-color: #eeeeee;
+  background-color: #000;
 }
 article,
 aside,
@@ -228,7 +228,7 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: 123C69;
   font-family: 'Signika', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -260,7 +260,7 @@ h3 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: #123C69;
   font-family: 'Signika', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -616,7 +616,7 @@ div,p{
   font-family: 'Signika', sans-serif;
 }
 .Wrapper{
-  background-image: url('../assets/images/blue-bg.png');
+  background-image: url('../assets/images/bg.png');
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;

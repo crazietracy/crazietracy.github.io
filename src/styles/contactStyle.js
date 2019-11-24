@@ -8,7 +8,7 @@ export const ContactWrapper = styled.div`
 `;
 export const ContactHeader = styled.h1`
   text-align: CENTER;
-  color: #eeeeee;
+  color:  #AC3B61;
   margin-bottom: 5%;
   font-weight: 300;
 `
@@ -18,7 +18,7 @@ export const ContactDetails = styled.div`
   justify-content: space-around;
   h3{
     font-size: 30px;
-    color: #7fa1e8;
+    color: #123C69;
     font-weight: 300;
   }
   @media (max-width: 700px) {

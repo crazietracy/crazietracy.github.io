@@ -8,7 +8,7 @@ import Layout from '../components/layout'
 const Contact = () => (
   <Layout>
   <ContactWrapper>
-    <ContactHeader>Get in touch</ContactHeader>
+    <ContactHeader>Get in touch with me!</ContactHeader>
     <ContactDetails>
         <ContactBox>
           <h3>Contact Details</h3>

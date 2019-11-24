@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const Box = styled.div`
   min-height: 287px;
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: #EEE2DC;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
             0 3px 1px -2px rgba(0,0,0,0.12),
             0 1px 5px 0 rgba(0,0,0,0.2);
@@ -28,7 +28,7 @@ const Box = styled.div`
   }
   a{
     margin-top: auto;
-    color: #7fa1e8;
+    color: #123C69;
     text-decoration: none;
   }
   @media (max-width: 700px) {

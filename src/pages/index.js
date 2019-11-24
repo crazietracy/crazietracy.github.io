@@ -1,5 +1,5 @@
 import React from 'react'
-import RashSelfIcon from '../assets/images/rashmi.svg'
+import SelfIcon from '../assets/images/self.png'
 import AboutBox from '../components/About/AboutBox'
 import about from '../data/About'
 import { UserWrapper, UserTitle, UserDescription, DownloadButton, UserTopic } from '../styles/indexStyle.js'
@@ -15,9 +15,9 @@ const IndexPage = () => {
         Hello there, welcome to my portfolio. I am a
         software engineer, focusing on backend development and mobile application development.
         </p>
-        <DownloadButton href="https://github.com/crazietracy/personal-website-react/raw/master/Huiwen_Jiang_Tracy_resume.pdf"  download title="Resume">Download Resume</DownloadButton>
+        <DownloadButton href="https://github.com/crazietracy/portfolio/blob/master/Huiwen_Jiang_Tracy_resume.pdf"  download title="Resume">Download Resume</DownloadButton>
       </div>
-      <img src={RashSelfIcon} alt="rashmi self" />
+      <img src={SelfIcon} alt="huiwen"/>
     </UserDescription>
     <UserTopic>
       {

@@ -2,13 +2,14 @@ import styled from 'styled-components'
 
 export const UserWrapper = styled.div`
   margin: 10% auto;
+  
 `;
 export const UserTitle = styled.h1`
   font-size: 4.2em;
   font-weight: bold;
-  color: #ffffff;
+  color: #123c69;
   span{
-    color: #7fa1e8;
+    color: #123c69;
   }
   @media (max-width: 700px) {
     font-size: 3em;
@@ -20,7 +21,7 @@ export const UserDescription = styled.div`
   justify-content: space-evenly;
   margin-bottom: 10%;
   p{
-    color: #ffffff;
+    color: #123c69;
     max-width: 90%;
     font-weight: 300;
     font-size: 26px;
@@ -28,32 +29,32 @@ export const UserDescription = styled.div`
     margin-bottom: 15%;
   }
   img{
-    max-width: 50%;
+    max-width: 30%;
   }
   @media (max-width: 700px) {
     flex-direction: column-reverse;
-    img{
-      max-width: 100%;
-    }
     p{
       max-width: 100%;
       font-size: 19px;
+    }
+    img{
+      max-width: 100%;
     }
   }
 `;
 export const DownloadButton = styled.a`
   width: 298px;
   height: 71px;
-  background-color: rgba(188, 188, 188, 0.1);
+  background-color: #AC3B61;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: CENTER;
   text-decoration: none;
-  color: #ffffff;
+  color: #EDC7B7;
   cursor: pointer;
   :hover{
-    color: #7fa1e8;
+    color: #375e97;
   }
   @media (max-width: 700px) {
     width: 100%;

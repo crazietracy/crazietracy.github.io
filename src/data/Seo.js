@@ -4,28 +4,24 @@ export const aboutWebsite = {
     "@context": "http://schema.org",
     "@type": "WebSite",
     "url": "http://rashmiap.me",
-    "name": "Rashmi AP | Front-end Engineer, Zoojoobe",
+    "name": "Huiwen J | Backend Engineer",
     "author": {
         "@type": "Person",
-        "name": "Rashmi AP"
+        "name": "Huiwen"
     }
 }
 export const siteMeta = {
-    title: 'Rashmi AP | Frontend Developer',
+    title: 'Huiwen J | Backend Developer',
     favicon: favicon,
     author: "Rashmi AP",
     description: "Hello there, welcome to my portfolio. I am a front end developer, visual artist and an animal lover based out of Bangalore.",
-    copyright: "Rashmi AP, Copyright (c) 2018",
+    copyright: "Huiwen J, Copyright (c) 2018",
     keywords: [
-        "Rashmi AP",
-        "ZoojooBE",
-        "frontend engineer",
-        "frontend developer",
+        "Huiwen",
+        "backend engineere",
         "fullstack engineer",
-        "web engineer",
-        "bangalore",
         "software engineer",
         "engineer",
-        "ui engineer"
+        "database management"
     ],
 }

@@ -4,6 +4,10 @@ export default [
     path: '/',
   },
   {
+    label: 'Education',
+    path: '/education',
+  },
+  {
     label: 'Experience',
     path: '/experience',
   },
@@ -14,9 +18,6 @@ export default [
   {
     label: 'Contact',
     path: '/contact',
-  },
-  {
-    label: 'Recommendation',
-    path: '/recommendation',
   }
+
 ]
